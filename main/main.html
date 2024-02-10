@@ -1,1 +1,53 @@
-<h1> Main Page! </h1>
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css"/>
+  </head>
+
+<body>
+  <div id="popup-content">
+	<div id="radio-buttons">
+		<input type="radio" id="news" name="search-cat" value="news" checked />
+		<label for="news">News</label>
+		<br>
+		<input type="radio" id="questions" name="search-cat" value="questions"/>
+		<label for="questions">Questions</label>
+		<br>		
+		<input type="radio" id="blogs" name="search-cat" value="blogs"/>
+		<label for="blogs">Blogs</label>
+		<br>		
+		<input type="radio" id="shopping" name="search-cat" value="shopping"/>
+		<label for="shopping">Shopping</label>
+		<br>		
+		<input type="radio" id="movies" name="search-cat" value="movies"/>
+		<label for="movies">Movies</label>
+		<br>		
+		<input type="radio" id="music" name="search-cat" value="music"/>
+		<label for="music">Music</label>
+		<br>		
+		<input type="radio" id="videos" name="search-cat" value="videos"/>
+		<label for="videos">Videos</label>
+		<br>		
+		<input type="radio" id="science" name="search-cat" value="science"/>
+		<label for="science">Science</label>
+		<br>		
+		<input type="radio" id="local" name="search-cat" value="local"/>
+		<label for="local">Local News</label>
+		<br>		
+		<input type="radio" id="software" name="search-cat" value="software"/>
+		<label for="software">Software</label>
+	</div>
+	<div id="search-term">
+		<label for ="sterm">Search term: </label>
+		<input type="text" id="sterm" name="sterm" />
+	</div>
+	<div id="search-button">
+		<button type="submit">Search</button>
+	</div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
