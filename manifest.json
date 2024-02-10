@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Search Groups",
+  "version": "0.1",
+  
+  "description": "Search multiple specific sites at once",
+  "homepage_url": "https://github.com/EricRa/search-groups",
+  
+  "background": {
+    "scripts": ["background.js"]
+  },
+}
