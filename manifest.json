@@ -12,7 +12,8 @@
   
   "action": {
     "default_icon": "icons/sg.svg",
-    "default_title": "Search Groups"
+    "default_title": "Search Groups",
+	"default_popup": "main/main.html"
   }
 
 }
