@@ -31,3 +31,12 @@ document.getElementById("c9-label").textContent = c9
 
 let c10 = document.getElementById("choice10").value
 document.getElementById("c10-label").textContent = c10
+
+
+// Search button
+
+let search = document.getElementById("search-button")
+search.addEventListener("click", () => {
+	pass
+});
+
